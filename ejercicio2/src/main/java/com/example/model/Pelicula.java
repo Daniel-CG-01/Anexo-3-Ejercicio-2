@@ -16,7 +16,7 @@ public class Pelicula {
     @Column(name="id")
     int idPelicula;
 
-    @Column(name="name")
+    @Column(name="nombre")
     String nombrePelicula;
 
     @ManyToMany(mappedBy = "peliculas", fetch = FetchType.EAGER)
